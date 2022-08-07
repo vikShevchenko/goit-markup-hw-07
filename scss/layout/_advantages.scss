@@ -1,0 +1,26 @@
+.advantages {
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    &__icon {
+      margin-bottom: 30px;
+      height: 120px;
+      width: 270px;
+   
+      background-color: var(--team-color);
+      border-radius: 4px;
+   
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+    }
+   
+    &__icon-size {
+      width: 70px;
+      height: 70px;
+    }
+
+  }
+ 
