@@ -735,10 +735,6 @@ textarea:focus {
   background-color: var(--overflow-color);
 }
 
-.task--top {
-  padding-top: 0;
-}
-
 .team {
   background-color: var(--team-color);
 }
