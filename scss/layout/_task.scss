@@ -1,5 +1,6 @@
 .task {
-    padding-bottom: 94px;
+  padding-bottom: 94px;
+  padding-top: 0px;
 
     &__photo {
       padding: 0;
@@ -40,6 +41,11 @@
       color: var(--background-main);
       background-color: var(--overflow-color);
     }
+
+    
   
   }
- 
+.task--top{
+  padding-top: 0;
+}
+

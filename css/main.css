@@ -148,7 +148,6 @@ ul {
 
 .advantages-block {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .footer {
@@ -701,6 +700,7 @@ textarea:focus {
 
 .task {
   padding-bottom: 94px;
+  padding-top: 0px;
 }
 .task__photo {
   padding: 0;
@@ -733,6 +733,10 @@ textarea:focus {
   text-transform: uppercase;
   color: var(--background-main);
   background-color: var(--overflow-color);
+}
+
+.task--top {
+  padding-top: 0;
 }
 
 .team {
